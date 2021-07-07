@@ -1,11 +1,11 @@
 
    @font-face {
-       font-family: Raleway;
+       font-family: Raleway sans-serif Georgia, 'Times New Roman', Times, serif
        src: url(fonts\static\Raleway-Black.ttf);
    }
 
 .vignette
 {
-    height: 50px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
 }
