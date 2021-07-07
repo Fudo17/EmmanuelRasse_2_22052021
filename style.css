@@ -6,6 +6,15 @@
 
 .vignette
 {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: auto;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px lightgrey
+}
+
+.section
+{
+    background-color: rgb(27, 51, 73);
+    position: absolute;
 }
