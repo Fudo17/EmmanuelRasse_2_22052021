@@ -11,7 +11,8 @@
 
 body
 {
-    margin: 0;
+    width: 100%;
+    margin: auto;
 }
 
 .presentation
@@ -43,10 +44,11 @@ h1
     vertical-align: auto;
     height: 200px;
     width: 250px;
-    border: 1px solid black;
+    border: 1px;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px black;
-    margin: auto
+    margin: auto;
+    background-color: white;
+    padding-top: 5px;
     
 }
 .nomtarif
@@ -59,11 +61,21 @@ h1
     width: 235px;
     height: 115px;
     border-radius: top 5px
-    
-
 }
 
-.aside
+.populaire
 {
-
+   background-color: lightgrey;
 }
+.photohotel2 img
+{
+    width: 235px;
+    height: 115px;
+    border-radius: top 5px
+}
+
+.vignette2
+{
+   
+}
+
