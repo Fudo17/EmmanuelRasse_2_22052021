@@ -17,7 +17,7 @@ body
 
 .presentation
 {
-    background-color: lightgrey;
+    background-color:#F2F2F2;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -65,7 +65,7 @@ h1
 
 .populaires
 {
-   background-color: lightgrey;
+   background-color: #F2F2F2;
 }
 .photohotel2 img
 {
