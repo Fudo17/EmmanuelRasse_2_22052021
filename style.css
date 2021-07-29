@@ -1,27 +1,33 @@
 
- 
- html
+html
 {
     width: 100%;
 }
- 
+
 body
 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin: 0;
 }
-  
+
 *
 {
     box-sizing: border-box;
-}
+ }
 
 main
 {
     margin: 0;
     padding: 0 30px;
 }
-  
+
+.container-width
+{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+ 
 .header
 {
     margin-top: 20px;
@@ -38,62 +44,262 @@ main
     height: 90px;
     object-fit: contain;
     margin-left: 0px;
- }
-
-.navbar
-{
+  }
+  
+  .navbar {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-}  
-
-.header-nav
-{
+  }
+  .header-nav {
+    /*marges menu*/
     margin: 40px 0;
-}
-  
-.header-nav a
-{
-   padding: 0px 30px;
-}
-
-a
-{
+  }
+  .header-nav a {
+    /*ecart menu*/
+    padding: 0px 30px;
+  }
+  a {
+    /*propriètes de "a"*/
     text-decoration: none;
     color: black;
-}
-  
-.header-nav a:hover 
-{
+  }
+  .header-nav a:hover {
+    /*effet de survol sur le menu*/
     border-top: 2px solid #0065fc;
     color: #0065fc;
     padding-top: 58px;
-}
-  
-.signin
-{
+  }
+  .signin {
     color: #0065fc;
     display: flex;
     align-items: center;
     padding-left: 30px;
-}
-
-  .disabled
-{
+  }
+  .disabled {
+    /*propriètés de "s'incrire"-désactivation du lien*/
     pointer-events: none;
     cursor: default;
     font-weight: bold;
     color: #0065fc;
-}
-
- .title 
- {
+  }
+  .title {
+    /*propriètes du titre*/
     margin: 20px 0;
-    font-size: 20px;
-}
-
-.subtitle
-{
+    font-size: 22px;
+  }
+  .subtitle {
+    /*propriètes du sous-titre*/
     margin-bottom: 20px;
     font-size: 16px;
-}
+  }
+  /*******************************propriètes de la barre de recherche********************************/
+  
+  .search {
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    font-family: "Raleway";
+  }
+  .searchbar {
+    height: 50px;
+    border: solid 1px #f2f2f2;
+    font-weight: bold;
+    width: 220px;
+  }
+  input {
+    font-family: "Raleway";
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .fa-map-marker-alt {
+    /*propriètés de l'icone localisation*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background-color: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border: solid 0 transparent;
+  }
+  
+  .button {
+    /*propriètés du bouton Rechercher*/
+    color: white;
+    font-family: "Raleway";
+    background-color: #0065fc;
+    border: solid 2px transparent;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0rem 1rem 1rem 0rem;
+    padding: 0rem 1rem 0rem 1rem;
+    text-align: center;
+  }
+  /*ajout de l'icone du bouton de recherche pour la version mobile*/
+  .button_icon {
+    display: none;
+  }
+  /*******************************propriètés des filtres*******************************/
+  
+  .border-filter:hover {
+    /*effet de survol sur les filtres*/
+    background-color: #deebff;
+  }
+  .filtres {
+    display: flex;
+    align-items: baseline;
+  }
+  h3.filters {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  .categories {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .name {
+    padding: 20px 0;
+    display: flex;
+    width: auto;
+  }
+  
+  .filtercategory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    margin-right: 10px;
+    padding: 5px;
+    border: solid 10px transparent;
+    color: #0065fc;
+    background-color: #deebff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .filtercategory p{
+    margin: 12px 0px;
+  }
+  
+  .border-filter {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    padding: 0px 20px 0px 0px;
+    border: solid 2px #f2f2f2;
+    font-weight: bold;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  
+  .info
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info .fas
+  {
+    color: #0065fc;
+    padding: 4px 8px;
+    margin-right: 10px;
+    border: solid 1px #f2f2f2;
+    border-radius: 1rem;
+  }
+  
+  p 
+  {
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  
+    
+  section
+  {
+    
+    margin: 20px;
+    width: auto;
+    display: flex;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  h3 {
+    /*propriètés de h3*/
+    font-size: 18px;
+    font-weight: bold;
+    margin: 7px 0px 0px 0px;
+  }
+  .hebergements {
+    /*propriètés de la section hebergements*/
+    background-color: #f2f2f2;
+    border-radius: 2em 2em 2em 2em;
+    object-fit: cover;
+    width: 70%;
+    margin-right: 20px;
+  }
+  .hebergements h2 {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  .hebergements img {
+    /*propriètés images*/
+    display: block;
+    border-radius: 2em 2em 0em 0em;
+    padding: 5px;
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+  }
+  article {
+    font-size: 10px;
+  }
+  
+  .blue {
+    /*Propriètés étoiles de notation en bleu*/
+    color: #0065fc;
+  }
+  .grey {
+    /*etoiles notation grise*/
+    color: #f2f2f2;
+  }
+  .location {
+    /*proprietes du cadre blanc*/
+    background-color: white;
+    border-radius: 2em 2em 2em 2em;
+    width: 30%;
+    height: 24em;
+    margin: 10px;
+  }
+  .text {
+    /*alignement legendes des hotels*/
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0;
+    font-size: 12px;
+  }
+  .text p{
+    margin: 10px 0px;
+  }
+  /*proprietes afficher plus*/
+  .plus {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 30px;
+  }
