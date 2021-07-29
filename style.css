@@ -20,13 +20,6 @@ main
     margin: 0;
     padding: 0 30px;
 }
-
-.container-width
-{
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
-}
  
 .header
 {
@@ -45,77 +38,93 @@ main
     object-fit: contain;
     margin-left: 0px;
   }
-  
-  .navbar {
+
+ .navbar
+ {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  .header-nav {
-    /*marges menu*/
+
+ .header-nav
+ {
     margin: 40px 0;
-  }
-  .header-nav a {
-    /*ecart menu*/
+ }
+
+.header-nav a
+{
     padding: 0px 30px;
-  }
-  a {
-    /*propriètes de "a"*/
+}
+
+a
+{
     text-decoration: none;
     color: black;
-  }
-  .header-nav a:hover {
-    /*effet de survol sur le menu*/
+}
+
+.header-nav a:hover
+ {
     border-top: 2px solid #0065fc;
     color: #0065fc;
     padding-top: 58px;
   }
-  .signin {
+
+.signin
+{
     color: #0065fc;
     display: flex;
     align-items: center;
     padding-left: 30px;
-  }
-  .disabled {
-    /*propriètés de "s'incrire"-désactivation du lien*/
+ }
+
+.disabled
+
+{
     pointer-events: none;
     cursor: default;
     font-weight: bold;
     color: #0065fc;
-  }
-  .title {
-    /*propriètes du titre*/
+}
+
+.title
+{
     margin: 20px 0;
     font-size: 22px;
-  }
-  .subtitle {
-    /*propriètes du sous-titre*/
+}
+  
+.subtitle
+{
     margin-bottom: 20px;
     font-size: 16px;
-  }
-  /*******************************propriètes de la barre de recherche********************************/
+}
   
-  .search {
+.search
+{
     margin-right: auto;
     display: flex;
     text-align: center;
     font-family: "Raleway";
   }
-  .searchbar {
+
+.searchbar
+{
     height: 50px;
     border: solid 1px #f2f2f2;
     font-weight: bold;
     width: 220px;
-  }
-  input {
+}
+
+input
+{
     font-family: "Raleway";
     color: black;
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
-  }
-  .fa-map-marker-alt {
-    /*propriètés de l'icone localisation*/
+}
+
+.fa-map-marker-alt
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,8 +135,8 @@ main
     border: solid 0 transparent;
   }
   
-  .button {
-    /*propriètés du bouton Rechercher*/
+.button 
+{
     color: white;
     font-family: "Raleway";
     background-color: #0065fc;
@@ -137,40 +146,49 @@ main
     border-radius: 0rem 1rem 1rem 0rem;
     padding: 0rem 1rem 0rem 1rem;
     text-align: center;
-  }
+}
+
   /*ajout de l'icone du bouton de recherche pour la version mobile*/
   .button_icon {
     display: none;
-  }
-  /*******************************propriètés des filtres*******************************/
+}
   
-  .border-filter:hover {
-    /*effet de survol sur les filtres*/
+ .border-filter:hover
+ {
     background-color: #deebff;
-  }
-  .filtres {
+ }
+
+.filtres
+{
     display: flex;
     align-items: baseline;
-  }
-  h3.filters {
+}
+
+ h3.filters
+ {
     font-size: 18px;
     font-weight: bold;
     margin-right: 50px;
-  }
-  .categories {
+ }
+ 
+ .categories
+ {
     display: flex;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
-  }
-  .name {
+}
+
+.name 
+{
     padding: 20px 0;
     display: flex;
     width: auto;
-  }
+}
   
-  .filtercategory {
+.filtercategory 
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,11 +204,14 @@ main
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
   }
-  .filtercategory p{
-    margin: 12px 0px;
-  }
   
-  .border-filter {
+.filtercategory p
+{
+    margin: 12px 0px;
+}
+  
+.border-filter 
+{
     display: flex;
     align-items: center;
     margin-right: 50px;
@@ -239,27 +260,32 @@ main
     justify-content: space-between;
     padding: 20px;
   }
-  h3 {
-    /*propriètés de h3*/
+
+  h3
+  {
     font-size: 18px;
     font-weight: bold;
     margin: 7px 0px 0px 0px;
   }
-  .hebergements {
-    /*propriètés de la section hebergements*/
+
+.hebergements
+{
     background-color: #f2f2f2;
     border-radius: 2em 2em 2em 2em;
     object-fit: cover;
     width: 70%;
     margin-right: 20px;
   }
-  .hebergements h2 {
+
+.hebergements h2
+{
     font-size: 22px;
     padding-top: 10px;
     padding-left: 30px;
-  }
-  .hebergements img {
-    /*propriètés images*/
+}
+
+.hebergements img
+{
     display: block;
     border-radius: 2em 2em 0em 0em;
     padding: 5px;
@@ -267,39 +293,116 @@ main
     height: 55%;
     object-fit: cover;
   }
-  article {
+
+ article
+ {
     font-size: 10px;
-  }
+}
   
-  .blue {
-    /*Propriètés étoiles de notation en bleu*/
-    color: #0065fc;
-  }
-  .grey {
-    /*etoiles notation grise*/
+.blue
+{
+  color: #0065fc;
+ }
+
+ .grey
+ {
     color: #f2f2f2;
-  }
-  .location {
-    /*proprietes du cadre blanc*/
+}
+
+.location
+{
     background-color: white;
     border-radius: 2em 2em 2em 2em;
     width: 30%;
     height: 24em;
     margin: 10px;
   }
-  .text {
-    /*alignement legendes des hotels*/
+
+.text
+{
     flex-direction: column;
     padding: 0px 15px;
     margin: 0;
     font-size: 12px;
   }
-  .text p{
+  
+.text p
+{
     margin: 10px 0px;
-  }
-  /*proprietes afficher plus*/
-  .plus {
+}
+
+.plus
+{
     font-size: 18px;
     font-weight: bold;
     margin: 0px 30px;
+}
+
+.container-2 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.populaires
+   {
+    background-color: #f2f2f2;
+    border-radius: 2em 2em 2em 2em;
+    padding: 0px 30px;
+    width: 30%;
+}
+
+.populaires h2 
+{
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.entete 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.location-pop 
+{
+    background-color: white;
+    border-radius: 2em 2em 2em 2em;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 15em;
+    padding: 5px;
+    margin: 10px 0 30px 0;
   }
+
+.img-pop
+{
+    width: 30%;
+    height: 100%;
+    border-radius: 2em 0em 0em 2em;
+    object-fit: cover;
+  }
+
+.text-pop 
+{
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+.text-pop h3 
+{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+ .text-pop p
+ {
+    margin: 10px 0px;
+}
