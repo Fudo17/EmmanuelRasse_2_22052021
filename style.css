@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #0065fc;
+
+  --primary-font: "Raleway", Arial, Helvetica, sans-serif;
+}
 
 html
 {
@@ -6,7 +11,7 @@ html
 
 body
 {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
     margin: 0;
 }
 
@@ -64,14 +69,13 @@ a
 
 .header-nav a:hover
  {
-    border-top: 2px solid #0065fc;
+    border-top: 2px solid var(--primary-color);
     color: #0065fc;
     padding-top: 58px;
   }
 
 .signin
 {
-    color: #0065fc;
     display: flex;
     align-items: center;
     padding-left: 30px;
@@ -83,7 +87,7 @@ a
     pointer-events: none;
     cursor: default;
     font-weight: bold;
-    color: #0065fc;
+    color: var(--primary-color);
 }
 
 .title
@@ -139,7 +143,7 @@ input
 {
     color: white;
     font-family: "Raleway";
-    background-color: #0065fc;
+    background-color: var(--primary-color);
     border: solid 2px transparent;
     font-size: 18px;
     font-weight: 500;
@@ -148,7 +152,6 @@ input
     text-align: center;
 }
 
-  /*ajout de l'icone du bouton de recherche pour la version mobile*/
   .button_icon {
     display: none;
 }
@@ -197,7 +200,7 @@ input
     margin-right: 10px;
     padding: 5px;
     border: solid 10px transparent;
-    color: #0065fc;
+    color: var(--primary-color);
     background-color: #deebff;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -290,7 +293,7 @@ input
     border-radius: 2em 2em 0em 0em;
     padding: 5px;
     width: 100%;
-    height: 55%;
+    height: 65%;
     object-fit: cover;
   }
 
@@ -366,6 +369,7 @@ input
     align-items: baseline;
 }
 
+
 .location-pop 
 {
     background-color: white;
@@ -405,4 +409,95 @@ input
  .text-pop p
  {
     margin: 10px 0px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .populaires h2 {
+   font-size: 40px;
+  }
+}
+
+.bloc-activites 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#activites
+{
+  width: 100%;
+}
+
+#activites
+{
+  font-size: 22px;
+}
+
+.annonces-activites
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.annonces-activites img
+{
+  padding: 0px;
+}
+
+.container-activites
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  height: 30em;
+}
+
+.petitformat
+{
+  border-radius: 2em;
+  font-weight: bold;
+  height: 45%;
+}
+
+.petitformat img
+{
+  height: 60%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 2em 2em 0em 0em;
+}
+
+.grandformat
+{
+  width: 20%;
+  border-radius: 2em;
+  height: 30em;
+  font-weight: bold;
+}
+
+.grandformat img
+{
+  height: 82%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 2em 2em 0em 0em;
+}
+
+.titre-photo p
+{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.grandformat,.petitformat,.location,.location-pop
+{
+  box-shadow: 0px 0px 10px #000;
 }
