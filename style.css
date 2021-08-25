@@ -314,7 +314,7 @@ input
 
   .location 
   {
-       background-color: white;
+    background-color: white;
     border-radius: 2em 2em 2em 2em;
     width: 30%;
     height: 24em;
@@ -336,7 +336,8 @@ input
   .plus {
     font-size: 18px;
     font-weight: bold;
-    margin: 0px 15px;
+    margin: 0px 10px;
+    height: 50px;
   }
 
 .container-2 
