@@ -411,12 +411,6 @@ input
     margin: 10px 0px;
 }
 
-@media only screen and (max-width: 1050px) {
-  .populaires h2 {
-   font-size: 40px;
-  }
-}
-
 .bloc-activites 
 {
   display: flex;
@@ -555,3 +549,143 @@ li
   font-size: 16px;
   padding: 10px 0;
 }
+
+/*** Résolution pour mobile ***/
+@media only screen and (max-width: 600px) {
+  body,
+  main {
+    margin: 0;
+  }
+  main {
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+  }
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .logo {
+    order: 1;
+    margin-left: 20px;
+  }
+  .logo img {
+    border-radius: 0px;
+  }
+  .signin {
+    order: 2;
+    margin-right: 20px;
+  }
+  .header-nav {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    order: 3;
+    padding-top: 20px;
+  }
+  .header-nav a {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 30px;
+  }
+  .header-nav a:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+    padding: 0 0 30px 0;
+  }
+  .logo .signin {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    margin: 0px 20px;
+  }
+  .subtitle {
+    margin: 10px 20px;
+  }
+  /*** mise en place icone rechercher et ajustement barre de recherche***/
+  .search {
+    margin: 10px 20px;
+  }
+  .button {
+    display: none;
+  }
+  .button_icon {
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: #0065fc;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+  }
+  .searchbar {
+    width: 70%;
+  }
+
+  /*** filtres ***/
+  .filtres {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+  }
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .name {
+    padding: 10px 4px;
+  }
+  .border-filter {
+    margin-right: 0px;
+  }
+  .info {
+    margin: 0px 20px;
+  }
+  /**** mise en place des plus populaires et hebergements***/
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+  }
+  .container .container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+    padding: 0px 10px;
+  }
+  .hebergements h2 {
+    padding-left: 20px;
+  }
+  .hebergements {
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  .plus {
+    margin: 10px 0px;
+  }
+  .location {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .populaires {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 20px;
+  }
