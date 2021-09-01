@@ -551,6 +551,7 @@ li
 }
 
 /*** Résolution pour mobile ***/
+
 @media only screen and (max-width: 600px) {
   body, main {
     margin: 0;
@@ -602,23 +603,29 @@ li
     border-bottom: 2px solid #f2f2f2;
     padding-bottom: 30px;
   }
-  
+
   .header-nav a:hover {
     border-top: none;
     border-bottom: 2px solid #0065fc;
     padding: 0 0 30px 0;
   }
+
   .logo .signin {
     display: flex;
     flex-direction: row;
   }
+
   .title {
     margin: 0px 20px;
   }
+
   .subtitle {
     margin: 10px 20px;
   }
+
+
   /*** mise en place icone rechercher et ajustement barre de recherche***/
+
   .search {
     margin: 10px 20px;
   }
@@ -641,40 +648,51 @@ li
   }
 
   /*** filtres ***/
+
   .filtres {
     display: flex;
     flex-wrap: wrap;
     margin: 10px 20px;
   }
+
   .categories {
     display: flex;
     flex-wrap: wrap;
   }
+
   .name {
     padding: 10px 4px;
   }
+
   .border-filter {
     margin-right: 0px;
   }
+
   .info {
     margin: 0px 20px;
   }
-  /**** mise en place des plus populaires et hebergements***/
+
+
+  /**** mise en place des plus populaires et hébergements***/
+
   section {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
     margin: 0;
   }
+
   .container .container-2 {
     display: flex;
     flex-wrap: wrap;
     margin: 0px 10px;
     padding: 0px 10px;
   }
+
   .hebergements h2 {
     padding-left: 20px;
   }
+
   .hebergements {
     width: 100%;
     background-color: white;
@@ -683,13 +701,16 @@ li
     padding: 0;
     height: auto;
   }
+
   .plus {
     margin: 10px 0px;
   }
+
   .location {
     width: 100%;
     margin: 10px 0px;
   }
+  
   .populaires {
     width: 100%;
     background-color: #f2f2f2;
