@@ -552,35 +552,41 @@ li
 
 /*** Résolution pour mobile ***/
 @media only screen and (max-width: 600px) {
-  body,
-  main {
+  body, main {
     margin: 0;
   }
+
   main {
     padding: 0;
   }
+
   .header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin: 0px;
   }
+
   .navbar {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
+
   .logo {
     order: 1;
     margin-left: 20px;
   }
+
   .logo img {
     border-radius: 0px;
   }
+
   .signin {
     order: 2;
     margin-right: 20px;
   }
+
   .header-nav {
     display: flex;
     width: 100%;
@@ -588,6 +594,7 @@ li
     order: 3;
     padding-top: 20px;
   }
+
   .header-nav a {
     display: flex;
     justify-content: center;
@@ -595,6 +602,7 @@ li
     border-bottom: 2px solid #f2f2f2;
     padding-bottom: 30px;
   }
+  
   .header-nav a:hover {
     border-top: none;
     border-bottom: 2px solid #0065fc;
