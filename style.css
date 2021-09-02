@@ -553,6 +553,7 @@ li
 /*** Résolution pour mobile ***/
 
 @media only screen and (max-width: 600px) {
+  
   body, main {
     margin: 0;
   }
@@ -629,9 +630,11 @@ li
   .search {
     margin: 10px 20px;
   }
+
   .button {
     display: none;
   }
+
   .button_icon {
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: #0065fc;
@@ -643,6 +646,7 @@ li
     justify-content: center;
     margin-left: -15px;
   }
+
   .searchbar {
     width: 70%;
   }
