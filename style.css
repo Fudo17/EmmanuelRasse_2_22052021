@@ -31,7 +31,7 @@ main
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 30px;
+    padding: 0px;
 }
   
 .logo
@@ -219,7 +219,7 @@ input
     display: flex;
     align-items: center;
     margin-right: 50px;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
     border: solid 2px #f2f2f2;
     font-weight: bold;
     border-top-left-radius: 50px;
@@ -722,7 +722,9 @@ li
     margin: 0;
     padding: 0 20px;
   }
+
   /*** Activités à Marseille ***/
+  
   .bloc-activites {
     width: 100%;
     align-items: center;
