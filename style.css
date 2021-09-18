@@ -119,6 +119,10 @@ a
     width: 220px;
 }
 
+.fa-search:before {
+  content: "Rechercher";
+}
+
 input
 {
     font-family: "Raleway";
@@ -153,10 +157,7 @@ input
     text-align: center;
 }
 
-  .button_icon {
-    display: none;
-}
-  
+
  .border-filter:hover
  {
     background-color: #deebff;
@@ -631,24 +632,12 @@ li
     margin: 10px 20px;
   }
 
-  .button {
-    display: none;
-  }
-
-  .button_icon {
-    border-radius: 1rem 1rem 1rem 1rem;
-    background-color: #0065fc;
-    color: white;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -15px;
-  }
-
   .searchbar {
     width: 70%;
+  }
+
+  .fa-search:before {
+    content: "\f002";
   }
 
   /*** filtres ***/
